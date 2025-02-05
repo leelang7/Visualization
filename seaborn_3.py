@@ -19,6 +19,6 @@ y_data = None
 # line의 색은 'red' 로 설정
 sns_plot = None
 
-# 엘리스 플랫폼 내의 출력을 위한 함수
+# 출력을 위한 함수
 fig = sns_plot.get_figure()
 fig.savefig("plot.png")
